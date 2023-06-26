@@ -1,0 +1,103 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display:flex;
+    justify-content: center;    
+}
+h1{
+    text-align: center;
+}
+.arriba{
+    background-color: white;
+    height: 100vh;
+    width: 50vh;
+}
+.alinear{
+    display: flex;
+    justify-content: center;
+
+}
+.abajo{
+    background-color: pink;
+    height: 40vh;
+    width: 50vh;
+    border-radius: 10%;
+}
+
+.circulo{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    }
+.arriba.circulo{
+    height: 30vh;
+    width: 30vh;
+
+}
+.boton{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    width: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+    border-radius: 10px;
+    margin: 50px 50px;
+    padding: 15px 15px;
+    background-color: palevioletred;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.lado{
+    display: flex;
+    justify-content:center;
+}
+
+.mail{
+    height: 50px;
+    width: 50px;
+    margin: 30px 10px;
+}
+.gif{
+    height: 50px;
+    width: 50px;
+    margin: 30px 10px
+}
+.link{
+    height: 50px;
+    width: 50px;
+    margin: 30px 10px
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+.pie{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background-color: blueviolet;
+    max-width: 250px;
+    margin: auto;
+    display: grid;
+    grid-gap: 50px;
+    padding: 10px 20px;
+}
+
